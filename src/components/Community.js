@@ -13,7 +13,7 @@ const Community = () => {
 
   const telegramUrl = `https://t.me/fomobabytelegram`;
 
-  const twitterUrl = `https://twitter.com/fomobabybsc`;
+  const twitterUrl = `https://twitter.com/fomobabycoin`;
 
   const instagramUrl = `https://www.instagram.com/p/CUYIJiCIjYQ/`;
 
@@ -127,7 +127,7 @@ const Community = () => {
                   <div className="community-main-content">
                     <a
                       target="_blank"
-                      href="https://twitter.com/fomobabybsc"
+                      href="https://twitter.com/fomobabycoin"
                       className="link-text"
                     >
                       {twitterUrl}

@@ -11,7 +11,6 @@ import Donate from "./Donate";
 import HomeImage from "../assets/Image2.png";
 import { FaTelegram, FaInstagram, FaMedium, FaReddit } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
-import Countdown from "react-countdown";
 import ABI from './../abi.json'
 const Moralis = require('moralis');
 Moralis.initialize("ytH3woEzPKiNgQwkQAonknEFXsE4UtLEMimK0Bu9");
@@ -197,7 +196,7 @@ const HomePage = () => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          href="https://twitter.com/fomobabybsc"
+                          href="https://twitter.com/fomobabycoin"
                         >
                           <AiFillTwitterCircle size={34} fill="#03A9F4" />
                         </a>

@@ -40,15 +40,22 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="menu-item">
-          <NavLink
+          {/* <NavLink
             exact
             activeClassName="router-link-active"
             to="/comingsoon"
             className="router-link-exact-active link-item"
+          > */}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://fomobaby.app/lotto"
+            className="router-link-exact-active link-item"
           >
             <ImTicket className="icon" />
             Lotto
-          </NavLink>
+          </a>
+          {/* </NavLink> */}
         </li>
         <li className="menu-item">
           <NavLink
